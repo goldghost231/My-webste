@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+.navbar {
+  background-color: #333; /* Background color of the navbar */
+  padding: 15px;
+  position: fixed; /* Make the navbar fixed */
+  width: 100%; /* Set the width to fill the entire viewport */
+  top: 0; /* Position the navbar at the top of the viewport */
+  z-index: 1000; /* Ensure the navbar stays above other content */
+}
+
+.nav-links {
+  list-style: none; /* Remove default list styles */
+  margin: 0;
+  padding: 0;
+}
+
+.nav-links li {
+  display: inline; /* Display list items horizontally */
+  margin-right: 15px; /* Spacing between list items */
+  text-decoration: underline;
+}
+
+.nav-links li:last-child {
+  margin-right: 0; /* Remove right margin for the last list item */
+}
+
+.nav-links li a {
+  color: #fff; /* Text color of navigation links */
+  text-decoration: underline; /* Remove underline from navigation links */
+}
+
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: url('if\ you.signin.jpg') no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.wrapper {
+  width: 420px;
+  background: purple;
+  border: 2px solid rgba(255, 255, 255, .2);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+
+  color: #fff;
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+.h1{
+  font-size: 36px;
+  text-align: center;
+
+}
+
+.input-box{
+  width: 100%;
+  height: 50px;
+  background-color: lightgray;
+  margin: 30px 0;
+  border-radius: 40px;
+
+}
+
+.input{
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, .2);
+  border-radius: 40px;
+  padding: 20px 45px 20px 20px;
+}
+
+input::placeholder {
+  color: #333;
+}
+
+.input-box i {
+  position: absolute;
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 20px;
+}
+.Username{
+  width: 100%;
+  height: 45px;
+  background: lightyellow;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  font-size: 16px;
+  color: #333;
+  font-weight: 700;
+}
+.password{
+  width: 100%;
+  height: 45px;
+  background: lightyellow;
+  border-radius: 45px;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  font-size: 16px;
+  color: #333;
+  font-weight: 700;
+}
+
+.wrapper .remember-forgot{
+  display: flex;
+  justify-content: space-between;
+  font-size: 14.5px;
+  margin: -15px 0 15px;
+}
+
+.remember-forgot label input {
+  accent-color: #fff;
+  margin-right: 3px;
+}
+
+.remember-forgot a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.remember-forgot a:hover {
+  text-decoration: underline;
+
+}
+
+.wrapper .btn {
+  width: 100%;
+  height: 45px;
+  background : #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+  font-size: 16px;
+  color: #333;
+  font-weight: 600;
+}
+
+.wrapper .register-link {
+  font-size: 14.5px;
+  text-align: center;
+  margin: 20px 0 15px;
+
+}
+
+.register-link p a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+}

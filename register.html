@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register Form in Html and CSS | Benjamin</title>
+    <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <nav class="navbar">
+        <ul class="nav-links">
+            <li><a href="homepage.html">Home</a></li>
+            <li><a href="index.html">About Hacking</a></li>
+            <li><a href="freecodecamp.org">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="wrapper">
+        <form action="signup.php" method="post">
+            <h1>Registration</h1>
+            <div class="input-box">
+                <input type="text" name="username" placeholder="Username" class="username" required>
+            </div>
+            <div class="input-box">
+                <input type="email" name="email" placeholder="Email" class="email" required>
+            </div>
+            <div class="input-box">
+                <input type="password" name="password" placeholder="Password" class="password" required>
+            </div>
+            <button type="submit" class="btn">Register</button>
+        </form>
+
+        <div class="register-link">
+            <p>Already have an account? <a href="sign-in.html">Login</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
